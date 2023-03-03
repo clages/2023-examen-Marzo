@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso Ingreso UTN FRA</title>
+
+			<!--/estilos-->
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<link rel="stylesheet" type="text/css" href="animacion.css">
+		<!--final de /estilos-->
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="dos.js"></script>
+        <!--Final de Lógica-Programación -->
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	</head>
+	<body>
+
+<div class=" animated bounceInRight header">
+     <a  class="MiBotonUTNnav" onclick="location.href='index.html'" ><i class="far fa-hand-point-left"></i>Men&uacute; ejercicios</a> 	
+</div>
+
+<div class="row">
+  <div class="col-6 col-s-9">
+   	<form id="FormIngreso" class=" animated bounceInLeft">
+	   	<h1>Ingrese datos </h1>
+		<br>
+	   	<a  class="MiBotonUTNnav" onclick="mostrar()" >Mostrar  informaci&oacute;n</a>
+	 </form>
+  </div>
+
+  <div class="col-6 col-s-12">
+    <div class="aside animated bounceInUp enunciado">
+     <h2>Enunciado:</h2>
+			<p>
+				Realizar el algoritmo que permita ingresar los datos 
+				de una compra de productos de la construccion (hasta que el cliente quiera). <br>
+				Los datos a cargar son los siguientes:
+			</p>
+
+			<ul>
+				<li>Tipo ("arena", "cal", "cemento")</li>
+				<li>Cantidad de bolsas</li>
+				<li>Precio por bolsa (entre 1000 y 3000 )</li>
+			</ul>
+
+			<p style="text-align: left;">
+				Para calcular el importe total se debe saber lo siguiente: <br>
+				Si el monto de la compra supera los $15000 obtiene un descuento de 10%.<br>
+				Si el monto de la compra supera los $25000 obtiene un descuento de 15%.<br>
+				<br>
+				Si el monto de la compra (con descuento) es menor a $14000 se le suma el 21% de iva.<br>
+				Si el monto de la compra (con descuento) es mayor o igual a $14000 se le suma el 10% de IVA.<br>
+			</p>
+
+			<p class="list">
+				Informar lo siguiente:
+			</p>
+			<ol class="list" type="a">
+				<li>
+					Informar el importe total a pagar (con IVA).
+				</li>
+
+				<li>
+					El tipo mas caro (sin descuento ni IVA).
+				</li>
+				
+				<li>
+					Informar el tipo de la compra de mayor monto (sin descuento ni IVA). 
+				</li>
+				
+				<li>
+					Informar el monto total a pagar (con descuento e IVA).
+				</li>
+			</ol>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  
+  	
+  	<p>Curso de ingreso UTN FRA</p>
+</div>
+
+</body>
+</html>
